@@ -1,0 +1,39 @@
+ul{
+    list-style-type: none;
+}
+ul >li {
+    display: inline-block;
+    margin: 0 5px;
+}
+header{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+}
+.header-menu{
+    min-width: 600px;
+}
+.item{
+    height: 20vh;
+    width: 100px;
+    background-color: rgb(221,255,244);
+}
+.item-center{
+    flex-grow:1;
+    background-color: rgb(255,252,239);
+}
+.grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.grid >div{
+    background-color: rgb(240,208,255);
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 10px;
+
+}

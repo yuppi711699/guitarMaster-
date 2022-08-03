@@ -1,0 +1,58 @@
+
+
+body{
+    
+    /* background-color: firebrick;  */
+    
+}
+h1{
+    text-align: center;
+    /* margin-bottom: 10px; */
+    /* margin: auto;
+    margin-left: auto; */
+}
+#score{
+    position: absolute;
+    
+    top: 3vh;
+    left: calc(50vw + 23vh);
+}
+
+#speed{
+    
+    position: absolute;
+    
+    top: 8vh;
+    left: calc(50vw + 23vh);
+    
+}
+#misses{
+    
+    position: absolute;
+    
+    top: 13vh;
+    left: calc(50vw + 23vh);
+    
+}
+#myBackgroundVideo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30vh;
+}
+
+#canvas{
+    
+    width: 40vh;
+    height: 76.1vh;
+    
+    
+    position:absolute;
+    top:5vh;
+    left: calc(50vw - 22.5vh);
+    
+    margin: auto;
+    
+    /* background-color: rgb(43, 179, 179, 0.3); */
+
+}
